@@ -12,7 +12,7 @@ list_of_files = [
     f"src/{project_name}/__init__.py", # here we wanna make a folder with source file inside that we have project name and it should always habe init folder
     f"src/{project_name}/components/__init__.py", #here we have all the components of training pipeline of a ml project
     f"src/{project_name}/components/data_ingestion.py",
-    f"src/{project_name}/components/data_transformation",
+    f"src/{project_name}/components/data_transformation.py",
     f"src/{project_name}/components/model_trainer.py",
     f"src/{project_name}/components/model_monitering.py",
     f"src/{project_name}/pipelines/__init__.py", # this will make it as a package when we compile it
@@ -44,3 +44,8 @@ for filepath in list_of_files:
             
     else:
         logging.info(f"{filename} already exists")
+        
+        
+# The code in this file helps to create a systematic template for thr project to maintain its perfect structure
+
+# if we need more files we can just add it in list of files and do python templat.py in terminal
