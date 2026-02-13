@@ -14,7 +14,6 @@ host = os.getenv("db_host")
 user = os.getenv("db_user")
 password = os.getenv("db_password")
 db = os.getenv('db_name')
-print(os.getenv("db_user"), os.getenv("db_password"))
 
 
 #this is for generic functionality
