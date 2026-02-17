@@ -28,7 +28,7 @@ class DataIngestion :
     def initiate_data_ingestion(self):
         try:
             ##reading code from the sql
-            df = read_sql_data()
+            df = pd.read_csv(os.path.join('notebook/data','raw.csv'))
             #here my dataframe is here and this is my raw data
         
             logging.info("Reading completed MySQL database")

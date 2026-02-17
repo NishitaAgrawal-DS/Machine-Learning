@@ -3,6 +3,10 @@ pandas
 python-dotenv #this helps to read the environment variable that we saved in .env file
 mysql-connector-python
 pymysql
-scikit-learn 
+scikit-learn
+seaborn 
+catboost
+xgboost
+
 # 3,4 libraries are used to connect a pure my client sql library
 #-e .
