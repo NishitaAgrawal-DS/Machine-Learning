@@ -1,3 +1,12 @@
+import dagshub
+
+dagshub.init(
+    repo_owner="NishitaAgrawal-DS",
+    repo_name="Machine-Learning",
+    mlflow=True
+)
+
+
 from src.mlproject.logger import logging
 from src.mlproject.exception import CustomException
 import sys

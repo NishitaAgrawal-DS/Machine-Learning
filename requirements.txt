@@ -7,6 +7,6 @@ scikit-learn
 seaborn 
 catboost
 xgboost
-
+mlflow
 # 3,4 libraries are used to connect a pure my client sql library
 #-e .
